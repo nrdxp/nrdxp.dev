@@ -1,0 +1,2 @@
+[[ -n $OLDPATH ]] && PATH=$OLDPATH && export PATH && unset OLDPATH
+unset -f nixops

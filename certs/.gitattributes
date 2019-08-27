@@ -1,0 +1,3 @@
+pub.pem filter=git-crypt diff=git-crypt
+priv.pem filter=git-crypt diff=git-crypt
+ca.pem filter=git-crypt diff=git-crypt

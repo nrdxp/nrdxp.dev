@@ -1,0 +1,10 @@
+if (( ! ${path[(I)$HOME/.yarn/bin]} )) && [[ -d $HOME/.yarn/bin ]]; then
+  OLDPATH=$PATH
+
+  PATH=$HOME/.yarn/bin:$PWD/site/node_modules/.bin:$PATH
+  export PATH
+fi
+
+nixops () {
+  nix-shell --run "nixops ${(f)@}"
+}
