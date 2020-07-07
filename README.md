@@ -1,4 +1,3 @@
-Source code for nrdxp.dev; my personal website.
+# ⚠ Archived
 
-All deployment operations should take place within nix-shell in order to ensure
-deterministic nixpkgs version.
+The new source for my blog can be found [here](https://github.com/nrdxp/nrdxp.github.io).
